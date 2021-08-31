@@ -17,6 +17,7 @@ for i in range(1,1000):
     values.append(random.randint(1, 1000))
 values.sort()
 print ( values )
+#Ingresar el número a buscar acá:
 k=25
 pos = BinSea(values,len(values),k)
 if pos != -1:
